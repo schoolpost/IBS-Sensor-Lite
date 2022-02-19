@@ -4,7 +4,6 @@ Interface to IBS 200 X Automotive Battery Sensor via LIN-Bus.
 This repository is derivative work based on this existing library: https://github.com/mestrode/IBS-Sensor-Library
 
 <br>
-<br>
 
 # Background
 For my project I was looking for a way to add battery monitoring to my vehicle, due to the long cold winters in Canada; it is nice to monitor the characteristics of the battery. 
@@ -16,7 +15,6 @@ As is with alot of my projects, I like to re-use existing things and find new pu
 Hella is an OEM provider to many existing car manufacturers as I discovered. I found IBS-200X for Hyundai/Kia and some Ford models as well. 
 
 <br>
-<br>
 
 # Reverse Engineering
 With some Automotive IBS-200X on hand I was now tasked with connecting to them and seeing what kind of data I could read from the sensor. I referred to the few established github projects that were already interfacing with IBS-200X only to notice that they were not working with any of the sensors I was able to salvage. 
@@ -26,7 +24,7 @@ After many head scratching hours, I came to conclusion that these Automotive IBS
 Automotive IBS-200X would only respond to request on address **0x50** ( also **0x92**, with static data.) 
 This is very strange behavior because LIN format specifies an ID range from: **0x00-0x3F**
 <br>
-<br>
+
 
     Response frame for address 0x50
 
@@ -40,15 +38,13 @@ This is very strange behavior because LIN format specifies an ID range from: **0
 
 <br>
 
-In this repository I provide some [raw linbus output](extras/IBS_Readings.txt) with the sensor at various power characteristics ( different voltage, current, temperature. ) Feel free to read and suggest improvements to sensor reading formulas.  
+In this repository I provide some [raw linbus output](docs/IBS_Readings.txt) with the sensor at various power characteristics ( different voltage, current, temperature. ) Feel free to read and suggest improvements to sensor reading formulas.  
 
-<br>
 <br>
 
 # Dependencies
 The Lin Interface utilizes a Hardware Serial (UART) of an ESP32. This requires a separate Library: https://github.com/mestrode/Lin-Interface-Library
 
-<br>
 <br>
 
 # Hardware
@@ -58,7 +54,6 @@ You will also require a LIN Transceiver to convert the logic level serial output
 
 If you do not have access to a transceiver there is a way to do this using some basic transistors, I will provide a schematic of this in the future.
 
-<br>
 <br>
 
 # References
