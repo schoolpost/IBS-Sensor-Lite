@@ -40,6 +40,13 @@ This is very strange behavior because LIN format specifies an ID range from: **0
 
 In this repository I provide some [raw linbus output](docs/IBS_Readings.txt) with the sensor at various power characteristics ( different voltage, current, temperature. ) Feel free to read and suggest improvements to sensor reading formulas.  
 
+### Teardown
+---
+I cracked open on of the sensors to see how it's heart beats, and it appears to be based on this [ADuC7034](https://www.analog.com/media/en/technical-documentation/data-sheets/aduc7034.pdf) 
+<br>
+
+![](/docs/WIN_20220202_23_11_41_Pro.jpg)
+
 <br>
 
 # Dependencies
