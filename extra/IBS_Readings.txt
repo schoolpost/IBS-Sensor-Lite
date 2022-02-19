@@ -1,0 +1,44 @@
+Normal Current Flow readings
+12v 0A>>>>>> FID 50h        = 55|50|D2.7F.63.97.1E.F8.EA.FF.|60  --->>>>>> FID 50h        = 55|50|D2.7F.62.97.1E.F8.EA.FF.|61
+12v 1A>>>>>> FID 50h        = 55|50|F0.7B.63.97.1E.F8.EA.FF.|46  --->>>>>> FID 50h        = 55|50|F7.7B.62.97.1E.F8.EA.FF.|40
+12v 2A>>>>>> FID 50h        = 55|50|E3.77.62.97.1E.F8.EA.FF.|58  --->>>>>> FID 50h        = 55|50|EB.77.62.97.1E.F8.EA.FF.|50
+12v 3A>>>>>> FID 50h        = 55|50|DD.73.62.97.1E.F8.EA.FF.|62  --->>>>>> FID 50h        = 55|50|E2.73.62.97.1E.F8.EA.FF.|5D
+12v 4A>>>>>> FID 50h        = 55|50|E5.6F.62.97.1E.F8.EA.FF.|5E  --->>>>>> FID 50h        = 55|50|EA.6F.62.97.1E.F8.EA.FF.|59
+12v 5A>>>>>> FID 50h        = 55|50|EF.6B.62.97.1E.F8.EA.FF.|58  --->>>>>> FID 50h        = 55|50|F1.6B.62.97.1E.F8.EA.FF.|56
+
+Changing Temperature to see effects
+Ambient>>>>> FID 50h        = 55|50|D1.7F.63.97.1E.F8.EA.FF.|61
+Heatedup>>>> FID 50h        = 55|50|E7.7F.63.97.1E.F8.EA.FF.|4B
+Cooled  >>>> FID 50h        = 55|50|BA.7F.63.97.1E.F8.EA.FF.|78
+
+Chaning Voltage Readings
+9v 0A>>>>>>> FID 50h        = 55|50|D1.7F.B6.8B.1E.F8.EA.FF.|1A
+10v 0A>>>>>> FID 50h        = 55|50|D0.7F.98.8F.1E.F8.EA.FF.|35
+11v 0A>>>>>> FID 50h        = 55|50|CF.7F.80.93.1E.F8.EA.FF.|4A
+12v 0A>>>>>> FID 50h        = 55|50|C8.7F.63.97.1E.F8.EA.FF.|6A
+13v 0A>>>>>> FID 50h        = 55|50|CC.7F.48.9B.1E.F8.EA.FF.|7D
+14v 0A>>>>>> FID 50h        = 55|50|CE.7F.38.9F.1E.F8.EA.FF.|87
+15v 0A>>>>>> FID 50h        = 55|50|CE.7F.1A.A3.1E.F8.EA.FF.|A1
+
+Reversed Current Flow readings
+12v 0AR>>>>> FID 50h        = 55|50|03.80.62.D7.1E.F8.EA.FF.|EF  --->>>>>> FID 50h        = 55|50|03.80.62.D7.1E.F8.EA.FF.|EF
+12v 1AR>>>>> FID 50h        = 55|50|0F.84.62.D7.1E.F8.EA.FF.|DF
+12v 2AR>>>>> FID 50h        = 55|50|1C.88.62.D7.1E.F8.EA.FF.|CE
+12v 3AR>>>>> FID 50h        = 55|50|1F.8C.62.D7.1E.F8.EA.FF.|C7
+12v 4AR>>>>> FID 50h        = 55|50|16.90.62.D7.1E.F8.EA.FF.|CC
+12v 5AR>>>>> FID 50h        = 55|50|08.94.62.D7.1E.F8.EA.FF.|D6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

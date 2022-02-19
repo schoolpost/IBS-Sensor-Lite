@@ -1,0 +1,35 @@
+{
+    "name": "Automotive IBS Battery Sensor",
+    "version": "0.0.1",
+    "description": "Interface to IBS 200X Automotive Battery Sensor via LIN-Bus",
+    "keywords": [
+      "Hella",
+      "IBS",
+      "IBS 200X",
+      "Automotive",
+      "Kia",
+      "Hyundai",
+      "Ford",
+      "Inteligent Battery Sensor",
+      "Battery Sensor",
+      "LIN",
+      "Lin-Bus"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/schoolpost/IBS-Sensor-Lite"
+    },
+    "authors": [
+      {
+        "name": "schoolpost",
+        "maintainer": true
+      }
+    ],
+    "license": "GPL-2.0-only",
+    "dependencies": [
+      {
+        "name": "Lin-Interface",
+        "version": "https://github.com/mestrode/Lin-Interface-Library"
+      }
+    ]
+  }
