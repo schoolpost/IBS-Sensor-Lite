@@ -31,7 +31,7 @@ This is very strange behavior because LIN format specifies an ID range from: **0
     IBS-200X connected to bench power supply with 12V + 3.0A load
 
     55      50      DD:73:62:97:1E:F8:EA:FF     62
-    sync    addr    |  |  |  |   |               chksm
+    sync    addr    |  |  |  |   |              chksm
                     IL IU |  |   |              Ibat = (IU << 8)) | IL // current in milliamps
                           VL VU  |              Vbat = (VU << 8)) | VL // uncalibrated voltage value
                                  MULT           this byte changes when the current load goes above ~16amps.
